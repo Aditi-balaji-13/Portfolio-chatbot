@@ -6,6 +6,10 @@ from langchain_together import ChatTogether
 import os
 
 # Short description of the app
+# Page config
+st.set_page_config(
+    initial_sidebar_state="collapsed")
+
 # Header
 st.title("✨ Ask Aditi's AI-Powered Profile Assistant")
 
