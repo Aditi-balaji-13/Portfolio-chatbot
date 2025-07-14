@@ -17,7 +17,7 @@ This is a personalized chatbot trained on Aditi Balaji’s resume, experiences, 
 using Streamlit, Langchain, FAISS and TogetherAI. It allows you to ask questions about Aditi's education, projects, skills, and more. 
 To clear the chat history, click the button in the sidebar.
             
-(Disclaimer: This is a chatbot that is not finetuned completely and hence may generate nonesence at times.)
+(Disclaimer: This is a chatbot that is not finetuned completely and hence may generate nonesense at times.)
             
 ---
 
