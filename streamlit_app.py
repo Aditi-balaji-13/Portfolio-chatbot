@@ -8,6 +8,7 @@ import os
 # Short description of the app
 # Page config
 st.set_page_config(
+    page_title="Aditi's AI-Powered Profile Assistant",
     initial_sidebar_state="collapsed")
 
 # Header
