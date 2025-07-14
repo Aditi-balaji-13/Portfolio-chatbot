@@ -94,10 +94,11 @@ if prompt := st.chat_input("What would you like to ask"):
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
     # Display user message in chat message container
-    with st.chat_message("user"):
-        st.markdown(prompt)
-    response = qa_chain.run(prompt)
-    with st.chat_message("assistant"):
-        st.markdown(response)
+    with st.spinner("Refering to my sources..."):
+        with st.chat_message("user"):
+            st.markdown(prompt)
+        response = qa_chain.run(prompt)
+        with st.chat_message("assistant"):
+            st.markdown(response)
     st.session_state.messages.append({"role": "assistant", "content": response})
 
