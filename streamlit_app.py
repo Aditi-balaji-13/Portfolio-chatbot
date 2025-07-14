@@ -2,7 +2,6 @@ import streamlit as st
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import SentenceTransformerEmbeddings
 from langchain.chains import RetrievalQA
-from langchain_ollama import OllamaLLM
 from langchain_together import ChatTogether
 import os
 
