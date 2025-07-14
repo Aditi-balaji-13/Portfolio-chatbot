@@ -14,7 +14,8 @@ st.title("✨ Ask Aditi's AI-Powered Profile Assistant")
 st.markdown("""
 Welcome to **Aditi's Chatbot**! 🤖  
 This is a personalized chatbot trained on Aditi Balaji’s resume, experiences, and creative chaos. This application was built 
-using Streamlit, Langchain, and TogetherAI. It allows you to ask questions about Aditi's education, projects, skills, and more.
+using Streamlit, Langchain, FAISS and TogetherAI. It allows you to ask questions about Aditi's education, projects, skills, and more. 
+To clear the chat history, click the button in the sidebar.
             
 (Disclaimer: This is a chatbot that is not finetuned completely and hence may generate nonesence at times.)
             
