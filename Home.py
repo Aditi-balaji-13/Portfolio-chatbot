@@ -47,7 +47,7 @@ def qa_bot():
 
     ---
 
-    Check out the [About Me]("pages/1_About_me.py") and [Professional Experience](pages/2_Professional_experiance.py) pages for more details about Aditi's background and work.
+    Check out the sidebar (top left corner) for more details about Aditi's background and work.
     Type your question below and see how Aditi's AI assistant responds!
     """)
 
